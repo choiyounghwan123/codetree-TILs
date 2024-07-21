@@ -7,7 +7,7 @@ res:int = -1
 
 for i in range(n-k+1):
     temp:int = 0
-    for j in range(i,i+3):
+    for j in range(i,i+k):
         temp += nums[j]
     res = max(res,temp)
 print(res)
