@@ -25,3 +25,4 @@ for i in range(1,len(a)):
     if a[i] == b[i]:
         print(i)
         exit()
+print("-1")
