@@ -14,7 +14,7 @@ for _ in range(m):
         b.append(b[-1] + v)
 
 
-res = -1
+res = 0
 pre = -1
 
 for i in range(len(a)):
@@ -24,4 +24,4 @@ for i in range(len(a)):
     elif a[i] < b[i] and pre != 1:
         pre = 1
         res+=1
-print(res)
+print(res if res == 0 else res - 1)
