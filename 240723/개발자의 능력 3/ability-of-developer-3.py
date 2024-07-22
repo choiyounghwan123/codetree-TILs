@@ -10,7 +10,7 @@ def get_diff(i, j, k):
     sum2 = sum(nums) - sum1
     return abs(sum1 - sum2)
 
-min_diff = 100
+min_diff = sys.maxsize
 
 for i in range(6):
     for j in range(i+1,6):
